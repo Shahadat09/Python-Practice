@@ -1,0 +1,30 @@
+list=[1,2,3,4,5]
+print(list)
+print(list[2])
+list.append(9)
+print(list)
+list.remove(2)
+print(list)
+print(len(list))
+list[2]=10
+print(list)
+print(sorted(list))
+print(list[2:4])
+print(list[::-1])
+print(max(list))
+print(min(list))
+for i in list:
+    print(i)
+ls=[[22,11,333,211],
+[12,67,87,32],
+[10,76,543,87]]
+print(ls)
+print(ls[0])
+print(ls[2])
+print(ls[2][3])
+ls[2][0]=13
+print(ls[2][0])
+dict={1:"Shaddu",2:"Nabil",3:"Mod"}
+print(dict)
+print(dict.get(1))
+print(dict[1])
